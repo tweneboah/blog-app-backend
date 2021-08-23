@@ -15,7 +15,7 @@ const app = express();
 dbConnect();
 
 app.get("/", (req, res) => {
-  res.json({ msg: "API for blog Application" });
+  res.json({ msg: "API for blog Application..." });
 });
 //Middleware
 app.use(express.json());
