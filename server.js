@@ -14,6 +14,8 @@ const app = express();
 //DB
 dbConnect();
 
+const upate = () => {};
+
 app.get("/", (req, res) => {
   res.json({ msg: "API for blog Application..." });
 });
